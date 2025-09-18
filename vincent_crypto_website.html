@@ -1,0 +1,666 @@
+        body {
+            font-family: 'Courier New', monospace;
+            line-height: 1.6;
+            color: #000;
+            background: #fff;
+            min-height: 100vh;
+            cursor: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAdgAAAHYBTnsmCQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFYSURBVCiRpZM9SwNBEIafgwQSCxsLwcJCG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1sLG1s<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vincent Van Meenen | Crypto-Native Author</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Courier New', monospace;
+            line-height: 1.6;
+            color: #000;
+            background: #fff;
+            min-height: 100vh;
+            cursor: crosshair;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 4rem;
+            position: relative;
+            border: 3px solid #000;
+            padding: 2rem;
+            background: repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 10px,
+                #000 10px,
+                #000 11px
+            );
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            right: -20px;
+            bottom: -20px;
+            background: #ff69b4;
+            z-index: -1;
+        }
+        
+        h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            color: #000;
+            margin-bottom: 1rem;
+            text-shadow: 3px 3px 0px #ff69b4;
+            font-family: 'Courier New', monospace;
+            letter-spacing: -2px;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            color: #000;
+            font-weight: bold;
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .crypto-badge {
+            display: inline-block;
+            background: #000;
+            color: #fff;
+            padding: 0.5rem 1.5rem;
+            border: 3px solid #ff69b4;
+            font-size: 0.9rem;
+            margin-bottom: 3rem;
+            transform: rotate(-2deg);
+        }
+        
+        .hero-section {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 3rem;
+            margin-bottom: 4rem;
+            background: #fff;
+            border: 3px solid #000;
+            padding: 3rem;
+            position: relative;
+        }
+        
+        .hero-section::after {
+            content: '';
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            right: -10px;
+            bottom: -10px;
+            background: #00ff00;
+            z-index: -1;
+        }
+        
+        .author-image {
+            border: 3px solid #000;
+            width: 100%;
+            height: auto;
+            filter: contrast(1.2) saturate(0.8);
+        }
+        
+        .hero-content h2 {
+            font-size: 2rem;
+            color: #000;
+            margin-bottom: 1.5rem;
+            font-family: 'Courier New', monospace;
+            text-transform: uppercase;
+        }
+        
+        .hero-content p {
+            color: #000;
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+        
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            margin-bottom: 4rem;
+        }
+        
+        .book-cover-container {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .book-cover {
+            max-width: 200px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        
+        .nav-tabs {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid rgba(148, 163, 184, 0.2);
+        }
+        
+        .tab {
+            padding: 1rem 2rem;
+            background: none;
+            border: none;
+            color: #94a3b8;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+        
+        .tab.active {
+            color: #3b82f6;
+            border-bottom-color: #3b82f6;
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        .press-links {
+            display: grid;
+            gap: 1rem;
+        }
+        
+        .press-link {
+            display: block;
+            padding: 1rem;
+            background: rgba(30, 41, 59, 0.3);
+            border-radius: 10px;
+            border: 1px solid rgba(148, 163, 184, 0.1);
+            text-decoration: none;
+            color: #cbd5e1;
+            transition: all 0.3s ease;
+        }
+        
+        .press-link:hover {
+            transform: translateY(-2px);
+            border-color: #3b82f6;
+        }
+        
+        .press-link-title {
+            color: #60a5fa;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .social-link {
+            padding: 0.8rem 1.5rem;
+            background: rgba(59, 130, 246, 0.1);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            border-radius: 10px;
+            color: #60a5fa;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .social-link:hover {
+            background: rgba(59, 130, 246, 0.2);
+            transform: translateY(-2px);
+        }
+        
+        .book-section {
+            background: rgba(30, 41, 59, 0.5);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 3rem;
+            border: 1px solid rgba(148, 163, 184, 0.1);
+        }
+        
+        .book-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #f1f5f9;
+            margin-bottom: 1rem;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .award-badge {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            color: #1f2937;
+            padding: 0.5rem 1rem;
+            border-radius: 10px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            display: inline-block;
+        }
+        
+        .book-description {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 2rem;
+            color: #cbd5e1;
+        }
+        
+        .crypto-keywords {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .keyword {
+            background: rgba(6, 182, 212, 0.1);
+            color: #67e8f9;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            border: 1px solid rgba(6, 182, 212, 0.2);
+        }
+        
+        .author-section {
+            background: rgba(30, 41, 59, 0.5);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 3rem;
+            border: 1px solid rgba(148, 163, 184, 0.1);
+        }
+        
+        .author-title {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #f1f5f9;
+            margin-bottom: 2rem;
+        }
+        
+        .bio-point {
+            margin-bottom: 1.5rem;
+            padding-left: 2rem;
+            position: relative;
+        }
+        
+        .bio-point::before {
+            content: '▶';
+            position: absolute;
+            left: 0;
+            color: #3b82f6;
+            font-size: 0.8rem;
+        }
+        
+        .quote-section {
+            background: rgba(59, 130, 246, 0.05);
+            border-left: 4px solid #3b82f6;
+            padding: 2rem;
+            margin: 3rem 0;
+            border-radius: 0 15px 15px 0;
+        }
+        
+        .quote {
+            font-style: italic;
+            font-size: 1.2rem;
+            color: #e2e8f0;
+            margin-bottom: 1rem;
+        }
+        
+        .quote-source {
+            color: #94a3b8;
+            font-size: 0.9rem;
+        }
+        
+        .next-project {
+            background: #fff;
+            border: 3px solid #000;
+            padding: 3rem;
+            text-align: center;
+            margin-top: 4rem;
+            position: relative;
+        }
+        
+        .next-project::after {
+            content: '';
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            right: -10px;
+            bottom: -10px;
+            background: #ff69b4;
+            z-index: -1;
+        }
+        
+        .next-title {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #000;
+            margin-bottom: 1rem;
+            font-family: 'Courier New', monospace;
+            text-shadow: 2px 2px 0px #00ff00;
+        }
+        
+        .next-subtitle {
+            font-size: 1.2rem;
+            color: #000;
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        
+        .project-details {
+            animation: slideDown 0.3s ease-out;
+        }
+        
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                max-height: 0;
+            }
+            to {
+                opacity: 1;
+                max-height: 2000px;
+            }
+        }
+        
+        .details-toggle:hover {
+            background: #ff69b4 !important;
+            color: #000 !important;
+            transform: translate(-2px, -2px);
+            box-shadow: 4px 4px 0px #000;
+        }
+        
+        .octant-badge {
+            background: #000;
+            color: #fff;
+            padding: 1rem 2rem;
+            border: 3px solid #00ff00;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            font-family: 'Courier New', monospace;
+            text-transform: uppercase;
+        }
+        
+        .octant-badge:hover {
+            background: #00ff00;
+            color: #000;
+            transform: translate(-3px, -3px);
+            box-shadow: 6px 6px 0px #000;
+        }
+        
+        .press-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+        
+        .press-item {
+            background: rgba(30, 41, 59, 0.3);
+            padding: 1.5rem;
+            border-radius: 15px;
+            border: 1px solid rgba(148, 163, 184, 0.1);
+        }
+        
+        .press-outlet {
+            color: #60a5fa;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        .press-quote {
+            color: #cbd5e1;
+            font-style: italic;
+        }
+        
+            @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero-section {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            
+            .main-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .book-section, .author-section {
+                padding: 2rem;
+            }
+            
+            .nav-tabs {
+                flex-wrap: wrap;
+            }
+            
+            .social-links {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Vincent Van Meenen</h1>
+            <div class="subtitle">Award-Winning Crypto-Native Author</div>
+            <div class="crypto-badge">BNG Bank Literature Prize Shortlist • Published by Das Mag</div>
+        </div>
+        
+        <div class="hero-section">
+            <div>
+                <img src="https://www.flandersliterature.be/sites/default/files/styles/author_detail_image/public/author_images/Vincent%20Van%20Meenen%20%C2%A9%20Alex%20Schuurbiers%20klein.jpg" alt="Vincent Van Meenen by Alex Schuurbiers" class="author-image">
+            </div>
+            <div class="hero-content">
+                <h2>From Crypto Degen to Literary Voice</h2>
+                <p>Vincent Van Meenen dove into the crypto world three years ago, lived the degen experience firsthand, and emerged with an award-winning novel that captured the psychological reality of digital gold rush culture.</p>
+                <p>Now a mainstream literary success, he bridges crypto culture and European literature, translating the complexity of blockchain communities for broader audiences while maintaining deep respect for the technology's transformative potential.</p>
+                <div class="social-links">
+                    <a href="https://linktr.ee/vincentvanmeenen" class="social-link">Linktree</a>
+                    <a href="https://instagram.com/vincentvanmeenen" class="social-link">Instagram</a>
+                    <a href="https://dasmag.nl" class="social-link">Das Mag</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="nav-tabs">
+            <button class="tab active" onclick="showTab('book')">The Book</button>
+            <button class="tab" onclick="showTab('press')">Press Coverage</button>
+            <button class="tab" onclick="showTab('translation')">International</button>
+        </div>
+        <div id="book" class="tab-content active">
+            <div class="main-content">
+                <div class="book-section">
+                    <div class="book-cover-container">
+                        <img src="https://dasmag.nl/wp-content/uploads/2023/08/0xblixa-cover.jpg" alt="0xBlixa book cover" class="book-cover">
+                    </div>
+                    <h2 class="book-title">0xBlixa</h2>
+                    <div class="award-badge">🏆 BNG Bank Literature Prize Shortlist</div>
+                    
+                    <div class="crypto-keywords">
+                        <span class="keyword">DeFi</span>
+                        <span class="keyword">Ethereum</span>
+                        <span class="keyword">Wallet Hack</span>
+                        <span class="keyword">Crypto Twitter</span>
+                        <span class="keyword">Angel Investing</span>
+                        <span class="keyword">FOMO Culture</span>
+                        <span class="keyword">Digital Identity</span>
+                    </div>
+                    
+                    <p class="book-description">
+                        The first literary novel to authentically capture crypto culture from the inside. Follow Paul (0xBlixa), a 31-year-old venture capitalist who made a fortune young but struggles with the psychological toll of the cryptoverse.
+                    </p>
+                    
+                    <p class="book-description">
+                        Written in a revolutionary style mimicking tweets and WhatsApp messages, the novel explores what happens when a wallet gets hacked and 144 ETH disappears, destroying friendships and forcing a confrontation with mortality and meaning beyond "number go up."
+                    </p>
+                    
+                    <a href="https://www.flandersliterature.be/books-and-authors/book/0xblixa" class="octant-badge" style="display: inline-block; margin-top: 1rem;">Read Sample Text</a>
+                </div>
+                
+                <div class="author-section">
+                    <h2 class="author-title">About Vincent</h2>
+                    
+                    <div class="bio-point">
+                        <strong>Former crypto degen</strong> who lived the experience before writing about it
+                    </div>
+                    
+                    <div class="bio-point">
+                        <strong>Literary recognition:</strong> Shortlisted for Belgium's prestigious BNG Bank Literature Prize
+                    </div>
+                    
+                    <div class="bio-point">
+                        <strong>Unique positioning:</strong> Bridge between crypto culture and mainstream European literature
+                    </div>
+                    
+                    <div class="bio-point">
+                        <strong>Academic background:</strong> PhD in Surrealism at Royal Conservatory Antwerp
+                    </div>
+                    
+                    <div class="bio-point">
+                        <strong>Publishing success:</strong> Published by Das Mag, received advance payment in Bitcoin
+                    </div>
+                    
+                    <div class="bio-point">
+                        <strong>Cultural impact:</strong> First Dutch novelist to seriously engage with crypto themes
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="press" class="tab-content">
+            <div class="press-links">
+                <a href="https://www.standaard.be/media-en-cultuur/vincent-van-meenen-schrijft-roman-over-de-schimmige-wereld-van-bitcoins-en-cryptocurrency/40732454.html" class="press-link">
+                    <div class="press-link-title">De Standaard</div>
+                    <div>"Vincent van Meenen writes novel about the shadowy world of bitcoins and cryptocurrency"</div>
+                </a>
+                
+                <a href="https://www.nporadio1.nl/fragmenten/de-nieuws-bv/c6e746c1-1450-4ca2-b854-cfaef3c990a2/2023-08-18-auteur-vincent-van-meenen-dook-in-het-wilde-westen-van-de-crypto-cowboys-de-crypto-wereld" class="press-link">
+                    <div class="press-link-title">NPO Radio 1</div>
+                    <div>"Author dived into the wild west of crypto cowboys"</div>
+                </a>
+                
+                <a href="https://www.groene.nl/artikel/21-vragen-aan-vincent-van-meenen" class="press-link">
+                    <div class="press-link-title">De Groene Amsterdammer</div>
+                    <div>"21 Questions with Vincent Van Meenen"</div>
+                </a>
+                
+                <a href="https://www.vrt.be/vrtnws/nl/2023/09/19/de-vijf-boeken-van-de-week/" class="press-link">
+                    <div class="press-link-title">VRT News</div>
+                    <div>"Book of the Week" feature</div>
+                </a>
+                
+                <a href="https://dasmag.nl/product/0xblixa/" class="press-link">
+                    <div class="press-link-title">Das Mag Publishers</div>
+                    <div>Official book page with reviews and excerpts</div>
+                </a>
+            </div>
+        </div>
+        
+        <div id="translation" class="tab-content">
+            <div class="author-section">
+                <h2 class="author-title">International Recognition</h2>
+                
+                <div class="bio-point">
+                    <strong>Flanders Literature:</strong> Selected for international promotion and translation sample
+                </div>
+                
+                <div class="bio-point">
+                    <strong>London Book Fair:</strong> Presented to international publishers with translation interest
+                </div>
+                
+                <div class="bio-point">
+                    <strong>Translator Collaboration:</strong> Working with acclaimed translator Shimanto Reza
+                </div>
+                
+                <a href="https://www.the-low-countries.com/article/shimanto-reza/" class="press-link" style="margin-top: 2rem;">
+                    <div class="press-link-title">Interview: Translator Shimanto Reza on 0xBlixa</div>
+                    <div>"Shimanto Reza wants to whet your reading appetite with an innovative novel... about the shadowy world of bitcoins and cryptocurrency."</div>
+                </a>
+            </div>
+        </div>
+        
+        <div class="quote-section">
+            <div class="quote">
+                "Vincent Van Meenen dove into the crypto world three years ago and emerged with a disorienting novel, a portrait of the digital gold rush generation. He witnessed firsthand how people get seduced by the 'get rich or die trying' mentality and how great the risks are once the game has you in its grip."
+            </div>
+            <div class="quote-source">— Das Mag Publishers</div>
+        </div>
+        
+        <div class="press-section">
+            <div class="press-item">
+                <div class="press-outlet">BNG Literature Prize Jury</div>
+                <div class="press-quote">"Not just a linguistically thrilling and disconcerting experiment but in its plot and structure exceptionally successful."</div>
+            </div>
+            
+            <div class="press-item">
+                <div class="press-outlet">Humo Magazine</div>
+                <div class="press-quote">"An outstanding exploration of a little-known niche world."</div>
+            </div>
+            
+            <div class="press-item">
+                <div class="press-outlet">Shimanto Reza (Translator)</div>
+                <div class="press-quote">"An innovative novel about the shadowy world of bitcoins and cryptocurrency."</div>
+            </div>
+        </div>
+        
+        <script>
+            function showTab(tabName) {
+                // Hide all tab contents
+                document.querySelectorAll('.tab-content').forEach(content => {
+                    content.classList.remove('active');
+                });
+                
+                // Remove active class from all tabs
+                document.querySelectorAll('.tab').forEach(tab => {
+                    tab.classList.remove('active');
+                });
+                
+                // Show selected tab content
+                document.getElementById(tabName).classList.add('active');
+                
+                // Add active class to clicked tab
+                event.target.classList.add('active');
+            }
+        </script>
+        
+        <div class="next-project">
+            <h2 class="next-title">$ilence</h2>
+            <p class="next-subtitle">The sequel exploring surveillance dystopia and censorship resistance</p>
+            
+            <p style="color: #cbd5e1; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                Paul returns in a world where EU Chat Control has created a surveillance state. When his former friend Matti frames him using stolen wallet addresses, Paul must join an underground collective using Ethereum's immutable blockchain to publish leaked documents exposing government corruption.
+            </p>
+            
+            <a href="#" class="octant-badge">Supporting via Octant Epoch 9</a>
+        </div>
+    </div>
+</body>
+</html>
